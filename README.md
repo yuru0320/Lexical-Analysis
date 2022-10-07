@@ -21,12 +21,12 @@ SIC/XE
 
 # 程式流程:
 * 建立struct Tabledata: string instuction(存指令), int table(table), int location(在table之位置)。
-先將4個table的內容讀進vector <Tabledata> table1~4中
+  先將4個table的內容讀進vector <Tabledata> table1~4中
 * 將內容包括空白逐一由字元讀出並輸出、印出
 * 遇到 whitespace 或是 delimiter 前，將每個字元由字串儲存起來。
 * 遇到 whitespace 或 delimiter 後，若字串不為空字串就將字串去4個table vector中尋找是否存在。
 
-若存在，儲存所在的table與位置。若不存在，判斷是否為是 integer或是字串，若都不是就為symbol，分別為table6,7,5
+  若存在，儲存所在的table與位置。若不存在，判斷是否為是 integer或是字串，若都不是就為symbol，分別為table6,7,5
 * 字串存入table6,7,5時，將字串的每個字元ascii code相加後mod 100 取餘數。
 
   若此字串已存在或是此位置為空，就將所在的 儲存table與位置，並且將餘數的hash位置存入table array中，
