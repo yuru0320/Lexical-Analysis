@@ -8,11 +8,11 @@ Xcode v12.5.1 (12E507)
 # 使用的程式語言:
 C++
 # 組合語言: SIC/XE
-#程式功能: 
+# 程式功能: 
 將讀入的資料切成token，找出對應的table與位置。
-#程式流程: 
-*首先輸入1，若是要結束程式則輸入0，
-*再輸入檔名ex: input。
+# 程式流程: 
+* 首先輸入1，若是要結束程式則輸入0，
+* 再輸入檔名ex: input。
 
 # 程式流程:
 * 建立struct Tabledata: string instuction(存指令), int table(table), int location(在table之位置)。
