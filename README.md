@@ -1,13 +1,17 @@
 # Lexical-Analysis
 將讀入的資料切成token，找出對應的table與位置。
 # 開發平台:
-OS : macOS Big Sur CPU : M1
+OS : macOS Big Sur 
+CPU : M1
+
 RAM : 8G
+
 # 使用開發環境:
 Xcode v12.5.1 (12E507) 
 # 使用的程式語言:
 C++
-# 組合語言: SIC/XE
+# 組合語言: 
+SIC/XE
 # 程式功能: 
 將讀入的資料切成token，找出對應的table與位置。
 # 程式流程: 
